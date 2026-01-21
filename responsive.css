@@ -1,0 +1,24 @@
+
+.hide{
+    display: none !important;
+}
+@media  screen and (max-width: 476px) {
+    .container{
+        width: 90%;
+    }
+    .humbergure{
+        display: block;
+    }
+    .navbar>ul{
+        display: none;
+    }
+    .navbar>.nav-btn{
+        display: none;
+    }
+
+
+
+
+
+
+}

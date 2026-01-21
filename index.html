@@ -9,9 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
-    <header>
+    <header class="">
         <nav class="navbar container">
             <div class="logo">
                 <img src="./assets/logo-navbar.png" alt="logo">
@@ -21,11 +22,12 @@
                 <li><a href="#">How It Works</a></li>
                 <li><a href="#">Why It's Different</a></li>
             </ul>
-            <div class="button">
+            <div class="button nav-btn">
                 <button class="btn">Get Early Access</button>
             </div>
+            <span class="humbergure"><i class="fa-solid fa-bars"></i></span>
         </nav>
-        <section class="hero container">
+        <section class="hero container hide">
             <div class="hero-content">
                 <p class="subtitle"><i class="fa-regular fa-circle-dot"></i> Early Access Now Open</p>
                 <h1>Structured Thinking,<br> <span>Not Just Note-Taking.</span></h1>
@@ -37,7 +39,7 @@
             </div>
         </section>
     </header>
-    <main>
+    <main class="hide">
         <section class="note-section">
             <div class="container">
                 <h1>Notes Don't Fail, Structure Does.</h1>
@@ -106,7 +108,7 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="hide">
         <div class="foot-container">
             <div class="foot-section">
                 <img src="./assets/logo-footer.png" alt="logo">
