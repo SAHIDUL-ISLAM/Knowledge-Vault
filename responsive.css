@@ -69,5 +69,20 @@ margin: 40px auto;
   margin-top: 20px;
 }
 
+/* ready section  */
+.main-container {
+  padding: 40px 10px;
+  margin: 0px;
+}
+.main-container h1 {
+  font-size: 2.25rem;
+}
+  .ready-section .container .main-container ul {
+    gap: 10px;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+  }
+
 
 }
