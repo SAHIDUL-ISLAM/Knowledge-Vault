@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+
 /* header start  */
 /* nav */
 .container{             /*common class*/
@@ -104,7 +105,7 @@
 }
 .note-section .container p{
     margin-top: 16px;
-    color: lightgray;
+    color: #627382;
 }
 .card-section{
     display: flex;
@@ -130,7 +131,7 @@
     margin: 16px 0px;
 }
 .card-main .card p{
-    color: lightgray;
+    color: #627382;
     line-height: 20px;
 }
 /* note card end  */
@@ -154,7 +155,7 @@
 }
 .brain-content .details{
     margin-top: 16px;
-    color: lightgray;
+    color: #627382;
     line-height: 20px;
 }
 .brain-content ul{
@@ -186,7 +187,7 @@
 .main-container p{
     margin-top: 16px;
     line-height: 24px;
-    color: lightgray;
+    color: #627382;
 }
 .ready-section .container .main-container button{
     margin-top: 24px;
@@ -196,7 +197,7 @@
     justify-content: center;
     gap: 20px;
     margin-top: 16px;
-    color: lightgray;
+    color: #627382;
 }
 .ready-section .container .main-container ul .first-li{
     list-style: none;
